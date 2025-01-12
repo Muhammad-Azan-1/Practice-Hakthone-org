@@ -28,7 +28,7 @@ const Categories = async() => {
         {response.map((product)=>(<h3 key={product.id} className="ml-4 mt-1 font-poppins capitalize tracking-wider text-[#DB4444]">{product.tags[0]}</h3>)) }
         </div>
 
-        <div className="text-[25px] text-center sm:text-left w-auto sm:w-[350px] mt-4 md:text-[36px] font-poppins">
+        <div className="text-[25px] text-center sm:text-left w-auto sm:w-[450px] mt-4 md:text-[36px] font-poppins">
           <h1>Browse By Category</h1>
         </div>
       </div>
