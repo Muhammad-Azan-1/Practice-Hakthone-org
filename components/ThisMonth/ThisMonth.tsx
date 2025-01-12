@@ -24,7 +24,7 @@ const ThisMonth = async() => {
       {/* text div */}
       <div className=" w-full h-auto  flex flex-col sm:flex-row px-4 lg:px-14 pt-16">
         {/* <div className="w-full flex"> */}
-        <div className="flex w-[100%]  sm:w-auto md:w-[350px] shrink-0 flex-wrap flex-col items-center sm:items-start sm:justify-end md:justify-between">
+        <div className="flex w-[100%]  sm:w-auto md:w-[450px] shrink-0 flex-wrap flex-col items-center sm:items-start sm:justify-end md:justify-between">
           <div className="border-l-[15px]  h-[30px] border-[#DB4444] rounded-t-[5px] rounded-b-[5px] overflow-hidden">
           {response.map((product)=>(<h3 key={product.id} className="ml-4 mt-1 font-poppins capitalize tracking-wider text-[#DB4444]">{product.tags[0]}</h3>)) }
           </div>
