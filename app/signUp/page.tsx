@@ -67,7 +67,7 @@ const SignUp = () => {
         {/* Login Option */}
         <div className="flex items-center w-full justify-center mt-1 gap-2 text-sm text-black">
           <span>Already have an account ?</span>
-          <Link href={"/login"}>
+          <Link href={"/login"} className='cursor-pointer'>
           <span className="text-black pl-1  cursor-pointer hover:underline">
             Log in
           </span>
